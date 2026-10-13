@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T09:20:20+08:00",
+  "site": "https://www.digiforensics.cn",
+  "repository": "https://github.com/DigiForensics/DigiForensics-Wiki",
+  "license": "CC-BY-SA-4.0",
+  "public_articles": 165,
+  "chunks": 5725,
+  "images": 0,
+  "name": "DigiForensics-Wiki"
+}

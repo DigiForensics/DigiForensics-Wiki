@@ -1,0 +1,30 @@
+# 本地数据与配置
+_private/
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.sql
+*.sql.gz
+*.sql.bz2
+*.pem
+*.key
+
+# 编辑器、助手与系统缓存
+.workbuddy/
+.codex/
+.claude/
+AGENTS.md
+.DS_Store
+__pycache__/
+*.pyc
+
+# 本地归档与工作产物
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.tmp
