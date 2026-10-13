@@ -15,6 +15,8 @@ node_path: ["实务与装备"]
 
 # 合规授权与法律边界
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-practice-legal-authorization-and-boundaries)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["日志与持久化"]
 
 # FSEvents 与时间机器
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-log-persistence-fsevents)
+
 <a id="section-1"></a>
 
 ## 一、概述

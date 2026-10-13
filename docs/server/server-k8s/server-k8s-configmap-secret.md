@@ -15,6 +15,8 @@ node_path: ["Kubernetes"]
 
 # K8s 审计日志与 ConfigMap/Secret
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-k8s-configmap-secret)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["NTFS"]
 
 # 文件系统取证总览
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-ntfs-filesystem-forensics-overview)
+
 <a id="section-1"></a>
 
 ## 一、概述

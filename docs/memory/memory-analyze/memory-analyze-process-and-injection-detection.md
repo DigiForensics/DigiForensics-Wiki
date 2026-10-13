@@ -15,6 +15,8 @@ node_path: ["内存分析"]
 
 # 进程与注入检测
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-analyze-process-and-injection-detection)
+
 <a id="section-1"></a>
 
 ## 一、概述

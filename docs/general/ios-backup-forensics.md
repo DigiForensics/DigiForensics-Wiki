@@ -14,6 +14,8 @@ node_path: []
 
 # iOS 手机取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/ios-backup-forensics)
+
 **iOS 设备的数据组织方式与 Android 明显不同。很多 iPhone 取证数据并不是以原始路径直接展示，而是通过备份文件、域名、哈希文件名和 Manifest.db 映射关系保存。理解 iOS 备份结构，是分析 iPhone 检材的基础。**
 
 **在比赛和案件中，iOS 检材常见形态包括：iTunes 备份、取证工具导出的文件系统、应用沙箱目录、系统数据库和媒体目录。不同提取方式能看到的数据范围不同，分析时应先确认检材类型，再决定分析路径。**

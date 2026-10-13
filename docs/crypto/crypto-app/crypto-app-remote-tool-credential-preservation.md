@@ -15,6 +15,8 @@ node_path: ["应用与数据库加密"]
 
 # 远程工具凭据的离线固定
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-app-remote-tool-credential-preservation)
+
 <a id="section-1"></a>
 
 ## 一、概述

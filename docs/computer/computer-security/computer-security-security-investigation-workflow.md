@@ -15,6 +15,8 @@ node_path: ["安全与权限"]
 
 # 取证实战流程
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-security-security-investigation-workflow)
+
 <a id="section-1"></a>
 
 ## 一、概述

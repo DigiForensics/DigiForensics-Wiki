@@ -14,6 +14,8 @@ node_path: ["取证概念"]
 
 # 近似匹配与模糊哈希
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-concepts-fuzzy-hashing)
+
 > **定位**：精确哈希回答「这两份文件是不是同一份」，近似匹配回答「这两份文件是不是同一份东西的两个版本」。它可用于已知样本的变体检索、恶意软件家族归并和文档相似性分析。
 >
 > **与本板块其他文章的关系**：[哈希与完整性校验](fundamentals-concepts-hashes-and-integrity-verification.md) 讲的是**精确匹配**的单向性与碰撞；本文讲的是**相似性度量**的构造、参数选择与阈值判定。两者共用「哈希」这个词，但解决的是相反的问题：前者要证明两个对象**相同**，后者要证明两个对象**相似**。

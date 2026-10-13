@@ -15,6 +15,8 @@ node_path: ["应用与数据库加密"]
 
 # 浏览器密码库与 Token 提取
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-app-browser-passwords-and-tokens)
+
 <a id="section-1"></a>
 
 ## 一、概述

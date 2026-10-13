@@ -15,6 +15,8 @@ node_path: ["Android"]
 
 # Frida 动态 Hook
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-android-frida-dynamic-hooking)
+
 <a id="section-1"></a>
 
 ## 一、概述

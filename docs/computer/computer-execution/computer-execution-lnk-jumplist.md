@@ -15,6 +15,8 @@ node_path: ["执行痕迹"]
 
 # LNK 快捷方式与 Jump List 跳转列表
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-execution-lnk-jumplist)
+
 <a id="section-1"></a>
 
 ## 一、概述

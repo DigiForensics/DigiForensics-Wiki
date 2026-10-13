@@ -15,6 +15,8 @@ node_path: ["内存工件"]
 
 # Linux 与 Android 内存取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-artifact-linux-android)
+
 <a id="section-1"></a>
 
 ## 一、概述

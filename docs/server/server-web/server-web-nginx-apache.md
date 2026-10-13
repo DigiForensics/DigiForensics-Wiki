@@ -15,6 +15,8 @@ node_path: ["Web 与应用"]
 
 # Nginx 与 Apache 配置取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-web-nginx-apache)
+
 <a id="section-1"></a>
 
 ## 一、概述

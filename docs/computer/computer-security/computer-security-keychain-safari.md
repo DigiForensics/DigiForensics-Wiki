@@ -15,6 +15,8 @@ node_path: ["安全与权限"]
 
 # Keychain 与 Safari 痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-security-keychain-safari)
+
 <a id="section-1"></a>
 
 ## 一、概述

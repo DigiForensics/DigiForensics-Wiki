@@ -12,15 +12,6 @@ _private/
 *.pem
 *.key
 
-# 编辑器、助手与系统缓存
-.workbuddy/
-.codex/
-.claude/
-AGENTS.md
-.DS_Store
-__pycache__/
-*.pyc
-
 # 本地归档与工作产物
 *.zip
 *.tar

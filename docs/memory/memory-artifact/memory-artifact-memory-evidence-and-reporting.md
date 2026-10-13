@@ -15,6 +15,8 @@ node_path: ["内存工件"]
 
 # 内存证据的可采性与报告
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-artifact-memory-evidence-and-reporting)
+
 <a id="section-1"></a>
 
 ## 一、概述

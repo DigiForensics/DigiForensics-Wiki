@@ -15,6 +15,8 @@ node_path: ["持久化机制"]
 
 # 计划任务与持久化痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-persistence-scheduled-tasks-and-persistence)
+
 <a id="section-1"></a>
 
 ## 一、概述

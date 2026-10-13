@@ -15,6 +15,8 @@ node_path: ["Docker"]
 
 # Volume 与绑定挂载取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-docker-docker-volumes-and-bind-mounts)
+
 <a id="section-1"></a>
 
 ## 一、概述

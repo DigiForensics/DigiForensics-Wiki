@@ -15,6 +15,8 @@ node_path: ["注册表与事件日志"]
 
 # 用户行为痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-registry-log-user-activity-artifacts)
+
 <a id="section-1"></a>
 
 ## 一、概述

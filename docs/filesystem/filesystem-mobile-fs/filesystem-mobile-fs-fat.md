@@ -15,6 +15,8 @@ node_path: ["移动文件系统"]
 
 # FAT 系列结构
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-mobile-fs-fat)
+
 > **技术复核提示（2026-10-11）**：本修订版已按 FAT 规范修正 BPB 与目录项关键偏移、exFAT 时间语义及部分代码；文内假设案例、删除恢复流程和演示脚本仍需使用 FAT12、FAT16、FAT32 与 exFAT 测试镜像逐一验证。未完成复现前，不应将其输出当作检材事实或司法鉴定结论。
 
 <a id="section-1"></a>

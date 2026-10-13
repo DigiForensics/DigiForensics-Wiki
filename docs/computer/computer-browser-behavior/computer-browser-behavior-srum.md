@@ -15,6 +15,8 @@ node_path: ["浏览器行为"]
 
 # SRUM 数据库分析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-browser-behavior-srum)
+
 <a id="section-1"></a>
 
 ## 一、概述

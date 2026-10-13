@@ -14,6 +14,8 @@ node_path: []
 
 # 运动软件取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-sport-app-forensics)
+
 **运动健康类 App 在手机取证和可穿戴设备取证中较为常见。**
 
 >虽然在此次盘古石初赛中，团队怀疑手表题数据在手机中，但随后复盘并未发现。同时发现手边数据有明显加密痕迹，故大概率数据还存在手表中，只是未找到正确方法解密。

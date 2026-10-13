@@ -15,6 +15,8 @@ node_path: ["注册表与事件日志"]
 
 # 事件日志深度分析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-registry-log-windows-event-log-analysis)
+
 <a id="section-1"></a>
 
 ## 一、概述

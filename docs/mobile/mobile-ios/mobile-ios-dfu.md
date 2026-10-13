@@ -15,6 +15,8 @@ node_path: ["iOS"]
 
 # iOS 系统痕迹与 DFU 恢复
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-ios-dfu)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["取证概念"]
 
 # 时间戳换算与时区陷阱
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-concepts-timestamps-and-timezones)
+
 <a id="section-1"></a>
 
 ## 一、概述

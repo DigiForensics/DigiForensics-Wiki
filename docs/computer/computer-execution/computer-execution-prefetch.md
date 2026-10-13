@@ -15,6 +15,8 @@ node_path: ["执行痕迹"]
 
 # Prefetch 深度解析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-execution-prefetch)
+
 <a id="section-1"></a>
 
 ## 一、概述

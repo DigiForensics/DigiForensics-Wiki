@@ -15,6 +15,8 @@ node_path: ["证据保管链"]
 
 # 证据保管链与委托证明
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-chain-chain-of-custody-and-authorization)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["Unix 文件系统"]
 
 # ext4 结构与 inode
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-unix-ext4-inode)
+
 <a id="section-1"></a>
 
 ## 一、概述

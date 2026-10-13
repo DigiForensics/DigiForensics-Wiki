@@ -15,6 +15,8 @@ node_path: ["卷加密"]
 
 # VeraCrypt / TrueCrypt 加密卷的取证解析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-volume-veracrypt)
+
 <a id="section-1"></a>
 
 ## 一、概述

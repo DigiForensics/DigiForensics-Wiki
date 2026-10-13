@@ -15,6 +15,8 @@ node_path: ["日志分析"]
 
 # 工件地图
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-log-server-artifact-map)
+
 <a id="section-1"></a>
 
 ## 一、概述

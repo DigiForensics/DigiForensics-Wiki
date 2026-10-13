@@ -15,6 +15,8 @@ node_path: ["网络痕迹"]
 
 # 网络流量与 PCAP 取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-network-pcap)
+
 > **关键词**：PCAP、PCAPNG、NetFlow、会话重组、TLS 元数据、HTTP 对象导出、JA3、snaplen、内容缺口
 > **难度**：进阶
 > **前置知识**：[内存取证总览](../memory-acquire/memory-acquire-memory-forensics-overview.md)、TCP/IP 协议栈、五层模型、文件哈希

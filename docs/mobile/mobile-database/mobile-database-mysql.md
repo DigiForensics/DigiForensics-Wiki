@@ -15,6 +15,8 @@ node_path: ["应用数据库"]
 
 # MySQL 数据库取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-database-mysql)
+
 <a id="section-1"></a>
 
 ## 一、概述

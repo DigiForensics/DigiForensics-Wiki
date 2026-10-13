@@ -15,6 +15,8 @@ node_path: ["应用与数据库加密"]
 
 # 数据库与配置文件加密的识别与解密
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-app-database-configuration-decryption)
+
 <a id="section-1"></a>
 
 ## 一、概述

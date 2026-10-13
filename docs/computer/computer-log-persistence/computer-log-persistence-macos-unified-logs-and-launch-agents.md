@@ -15,6 +15,8 @@ node_path: ["日志与持久化"]
 
 # 统一日志与启动项
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-log-persistence-macos-unified-logs-and-launch-agents)
+
 <a id="section-1"></a>
 
 ## 一、概述

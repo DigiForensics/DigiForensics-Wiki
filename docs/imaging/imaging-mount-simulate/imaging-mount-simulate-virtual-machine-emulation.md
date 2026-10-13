@@ -15,6 +15,8 @@ node_path: ["只读挂载与仿真"]
 
 # 虚拟机仿真
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/imaging-mount-simulate-virtual-machine-emulation)
+
 <a id="section-1"></a>
 
 ## 一、概述

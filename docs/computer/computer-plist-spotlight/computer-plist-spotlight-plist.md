@@ -15,6 +15,8 @@ node_path: ["plist 与 Spotlight"]
 
 # plist 与偏好设置
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-plist-spotlight-plist)
+
 <a id="section-1"></a>
 
 ## 一、概述

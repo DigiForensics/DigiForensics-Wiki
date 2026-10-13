@@ -15,6 +15,8 @@ node_path: ["注册表与事件日志"]
 
 # Sysmon 与 Windows 日志聚合
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-registry-log-sysmon)
+
 <a id="section-1"></a>
 
 ## 一、概述

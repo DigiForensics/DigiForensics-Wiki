@@ -15,6 +15,8 @@ node_path: ["NTFS"]
 
 # NTFS 结构与 MFT 解析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-ntfs-ntfs-master-file-table)
+
 <a id="section-1"></a>
 
 ## 一、概述

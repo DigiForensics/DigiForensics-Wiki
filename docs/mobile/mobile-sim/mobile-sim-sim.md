@@ -15,6 +15,8 @@ node_path: ["SIM 与 USIM"]
 
 # SIM 卡 / UICC 的读取与取证分析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-sim-sim)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["NTFS"]
 
 # NTFS 数据流（ADS）与隐藏数据
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-ntfs-ntfs-alternate-data-streams)
+
 <a id="section-1"></a>
 
 ## 一、概述

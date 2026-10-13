@@ -15,6 +15,8 @@ node_path: ["流程与原则"]
 
 # 五阶段流程与基本原则
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-process-five-stage-forensics-process)
+
 <a id="section-1"></a>
 
 ## 一、概述

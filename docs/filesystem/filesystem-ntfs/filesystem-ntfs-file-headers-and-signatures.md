@@ -15,6 +15,8 @@ node_path: ["NTFS"]
 
 # 文件头与文件签名
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/filesystem-ntfs-file-headers-and-signatures)
+
 <a id="section-1"></a>
 
 ## 一、概述

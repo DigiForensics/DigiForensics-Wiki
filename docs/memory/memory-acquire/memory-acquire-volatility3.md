@@ -15,6 +15,8 @@ node_path: ["镜像采集"]
 
 # Volatility 3 框架与插件选择
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-acquire-volatility3)
+
 <a id="section-1"></a>
 
 ## 一、概述

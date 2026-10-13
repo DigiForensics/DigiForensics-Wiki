@@ -15,6 +15,8 @@ node_path: ["卷加密"]
 
 # BitLocker 全卷加密的取证路径
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-volume-bitlocker)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -14,6 +14,8 @@ node_path: []
 
 # Linux 服务器日志取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/linux-log-forensics)
+
 **服务器日志可以还原系统被使用、被攻击、被登录和被修改的过程。**
 
 **在比赛中，特别是取证、溯源类比赛，日志题常见问题包括：**

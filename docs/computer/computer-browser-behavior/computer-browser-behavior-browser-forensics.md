@@ -15,6 +15,8 @@ node_path: ["浏览器行为"]
 
 # 浏览器取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-browser-behavior-browser-forensics)
+
 <a id="section-1"></a>
 
 ## 一、概述

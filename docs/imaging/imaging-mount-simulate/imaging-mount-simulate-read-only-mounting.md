@@ -15,6 +15,8 @@ node_path: ["只读挂载与仿真"]
 
 # 只读挂载与安全接入
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/imaging-mount-simulate-read-only-mounting)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["Web 与应用"]
 
 # 网站目录与 WebShell 检测
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-web-webshell-detection)
+
 <a id="section-1"></a>
 
 ## 一、概述

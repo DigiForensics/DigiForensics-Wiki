@@ -15,6 +15,8 @@ node_path: ["镜像采集"]
 
 # Windows 内存 Profile 机制
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-acquire-windows-profile)
+
 <a id="section-1"></a>
 
 ## 一、概述

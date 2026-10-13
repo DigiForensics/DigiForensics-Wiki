@@ -15,6 +15,8 @@ node_path: ["Android"]
 
 # 即时通讯取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-android-instant-messaging-forensics)
+
 <a id="section-1"></a>
 
 ## 一、概述

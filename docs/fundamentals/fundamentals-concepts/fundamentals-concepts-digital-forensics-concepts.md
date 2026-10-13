@@ -15,6 +15,8 @@ node_path: ["取证概念"]
 
 # 电子数据取证的概念与分类
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-concepts-digital-forensics-concepts)
+
 <a id="section-1"></a>
 
 ## 一、概述

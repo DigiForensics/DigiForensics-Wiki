@@ -15,6 +15,8 @@ node_path: ["浏览器行为"]
 
 # Windows 11 与 Recall
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-browser-behavior-windows11-recall)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -14,6 +14,8 @@ node_path: ["取证概念"]
 
 # 反取证手法与时间戳篡改检测
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-concepts-anti-forensics-and-timestamp-tampering)
+
 > **定位**：本篇讨论的不是「如何隐藏痕迹」，而是**痕迹被隐藏后如何被识别出来**。核心结论只有一句：MFT 内部的一致性检查最多只能把文件判为「存疑」，要坐实篡改必须引入 MFT 之外的独立时钟。
 >
 > **与本板块其他文章的关系**：[时间戳换算](fundamentals-concepts-timestamps-and-timezones.md) 讲的是「怎么正确读时间戳」，本文讲的是「读出来之后怎么发现它在骗你」。前者是格式与换算，后者是对抗与验证——两者都必须掌握，缺一不可。

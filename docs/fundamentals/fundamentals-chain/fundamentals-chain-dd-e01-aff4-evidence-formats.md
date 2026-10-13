@@ -15,6 +15,8 @@ node_path: ["证据保管链"]
 
 # 证据文件格式：DD、E01 与 AFF4
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-chain-dd-e01-aff4-evidence-formats)
+
 <a id="section-1"></a>
 
 ## 一、概述

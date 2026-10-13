@@ -15,6 +15,8 @@ node_path: ["日志分析"]
 
 # Web 访问日志深度分析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-log-web-access-log-analysis)
+
 <a id="section-1"></a>
 
 ## 一、概述

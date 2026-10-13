@@ -15,6 +15,8 @@ node_path: ["Android"]
 
 # APK 逆向与 Manifest 分析
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-android-apk-manifest)
+
 <a id="section-1"></a>
 
 ## 一、概述

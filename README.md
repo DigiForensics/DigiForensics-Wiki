@@ -3,7 +3,7 @@
 **DigiForensics · 电子取证.com**
 数字寻迹，取证求真。
 
-[平台首页](https://www.digiforensics.cn/) · [在线知识库](https://www.digiforensics.cn/wiki) · [文档目录](INDEX.md) · [社区共建](https://www.digiforensics.cn/community) · [CC BY-SA 4.0](LICENSE.md)
+[平台首页](https://www.digiforensics.cn/) · [在线知识库](https://www.digiforensics.cn/wiki) · [文档目录](INDEX.md) · [社区共建](https://www.digiforensics.cn/community) · [提交 Wiki 共建](https://www.digiforensics.cn/contribute/create?type=wiki) · [CC BY-SA 4.0](LICENSE.md)
 
 DigiForensics-Wiki 是由 DigiForensics 平台维护、面向社区开放协作的电子取证知识库。内容围绕检材获取、数据结构、工具使用、痕迹分析和结果复核展开，供技术学习、取证训练、比赛备赛与研究参考。
 
@@ -51,7 +51,7 @@ git clone https://github.com/DigiForensics/DigiForensics-Wiki.git
 cd DigiForensics-Wiki
 ```
 
-阅读 Markdown 无需部署网站。站内文章链接使用相对路径，正文保留 `section-N` 锚点；外部参考资料链接保留原地址。
+阅读 Markdown 无需部署网站。站内文章链接使用相对路径，正文保留 `section-N` 锚点；每篇文章标题下提供原站链接，外部参考资料链接保留原地址。
 
 安装 `ripgrep` 后，可检索正文：
 
@@ -112,6 +112,8 @@ GitHub 修订记录见 [提交历史](https://github.com/DigiForensics/DigiForen
 
 可通过 [Issues](https://github.com/DigiForensics/DigiForensics-Wiki/issues) 报告错误、提出补充建议，或提交 [Pull Request](https://github.com/DigiForensics/DigiForensics-Wiki/pulls) 修正文档。
 
+也可通过平台的 [提交 Wiki 共建](https://www.digiforensics.cn/contribute/create?type=wiki) 入口提交取证知识、新条目或文档修订。
+
 提交技术问题时，请提供文章路径、具体段落、系统与工具版本，以及预期和实际结果。附上复现步骤或官方资料链接，便于核查；示例数据请先脱敏。
 
 提交文档修订时，请：
@@ -141,6 +143,7 @@ GitHub 修订记录见 [提交历史](https://github.com/DigiForensics/DigiForen
 ## 联系与反馈
 
 - 文档问题与建议：[GitHub Issues](https://github.com/DigiForensics/DigiForensics-Wiki/issues)
+- Wiki 内容提交：[平台共建入口](https://www.digiforensics.cn/contribute/create?type=wiki)
 - 平台入口：[www.digiforensics.cn](https://www.digiforensics.cn/)
 - 开源项目：[DigiForensics GitHub](https://github.com/DigiForensics)
 - 社区交流：[社区共建](https://www.digiforensics.cn/community) · QQ 群 **1078049831**

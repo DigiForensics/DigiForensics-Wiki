@@ -15,6 +15,8 @@ node_path: ["流程与原则"]
 
 # 取证技能树与学习路径
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-process-forensics-learning-path)
+
 <a id="section-1"></a>
 
 ## 一、概述

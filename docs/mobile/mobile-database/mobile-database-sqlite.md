@@ -15,6 +15,8 @@ node_path: ["应用数据库"]
 
 # SQLite 基础与结构
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-database-sqlite)
+
 <a id="section-1"></a>
 
 ## 一、概述

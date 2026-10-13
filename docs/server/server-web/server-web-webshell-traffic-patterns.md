@@ -15,6 +15,8 @@ node_path: ["Web 与应用"]
 
 # WebShell 工具流量特征
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-web-webshell-traffic-patterns)
+
 > ⚖️ **本篇的边界（重要）**
 >
 > 本篇**只从防御与取证角度**讨论 WebShell 管理工具的**通信协议特征**与**检测方法**。目的是让取证人员能够**看懂日志、识别工具、还原行为、关联攻击者**。

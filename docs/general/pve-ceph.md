@@ -14,6 +14,8 @@ node_path: []
 
 # PVE + Ceph 集群取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/pve-ceph)
+
 **PVE，全称 Proxmox Virtual Environment，是基于 Debian 的开源虚拟化平台。它常用于搭建服务器集群，支持 KVM 虚拟机、LXC 容器、Ceph 分布式存储和 Web 管理面板。**
 
 **在取证比赛中，如果拿到的是 PVE 宿主机镜像，不要急着找网站。第一步应该看：**

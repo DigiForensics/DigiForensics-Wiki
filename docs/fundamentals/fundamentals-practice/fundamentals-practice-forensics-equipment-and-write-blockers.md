@@ -15,6 +15,8 @@ node_path: ["实务与装备"]
 
 # 取证装备与写保护器
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-practice-forensics-equipment-and-write-blockers)
+
 <a id="section-1"></a>
 
 ## 一、概述

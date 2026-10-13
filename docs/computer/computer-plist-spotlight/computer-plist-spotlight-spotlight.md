@@ -15,6 +15,8 @@ node_path: ["plist 与 Spotlight"]
 
 # Spotlight 索引与元数据
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-plist-spotlight-spotlight)
+
 <a id="section-1"></a>
 
 ## 一、概述

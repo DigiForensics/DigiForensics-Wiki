@@ -15,6 +15,8 @@ node_path: ["Kubernetes"]
 
 # 容器逃逸与运行时痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-k8s-container-escape-and-runtime-artifacts)
+
 <a id="section-1"></a>
 
 ## 一、概述

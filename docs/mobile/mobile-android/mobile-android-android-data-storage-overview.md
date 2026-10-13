@@ -15,6 +15,8 @@ node_path: ["Android"]
 
 # Android 数据存储总览
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-android-android-data-storage-overview)
+
 <a id="section-1"></a>
 
 ## 一、概述

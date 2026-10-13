@@ -15,6 +15,8 @@ node_path: ["持久化机制"]
 
 # 包管理器与软件清单
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-persistence-package-manager-and-software-inventory)
+
 <a id="section-1"></a>
 
 ## 一、概述

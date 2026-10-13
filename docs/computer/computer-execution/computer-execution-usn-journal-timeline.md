@@ -15,6 +15,8 @@ node_path: ["执行痕迹"]
 
 # UsnJrnl 与文件操作时间线
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-execution-usn-journal-timeline)
+
 <a id="section-1"></a>
 
 ## 一、概述

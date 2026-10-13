@@ -14,6 +14,8 @@ node_path: []
 
 # Android 应用数据取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/android-app-forensics)
+
 **Android 应用取证是手机取证中最常见、也最容易拉开差距的部分。普通取证软件可以解析常见聊天、短信、通话和浏览器数据，但遇到比赛自制应用、小众应用、加固应用或业务应用时，仍需要手工分析应用沙箱。**
 
 **分析 Android 应用的关键是包名。只要确定包名，就能定位应用目录、数据库、配置文件、缓存和 WebView 数据。很多服务器地址、登录 Token、聊天记录、历史搜索、接口响应和缓存图片，都保存在这些目录中。**

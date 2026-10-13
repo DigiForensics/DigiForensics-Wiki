@@ -15,6 +15,8 @@ node_path: ["应用数据库"]
 
 # SQLite WAL 取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-database-sqlite-wal)
+
 <a id="section-1"></a>
 
 ## 一、概述

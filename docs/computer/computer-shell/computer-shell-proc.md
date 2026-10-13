@@ -15,6 +15,8 @@ node_path: ["Shell 与命令历史"]
 
 # /proc 虚拟文件系统取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-shell-proc)
+
 <a id="section-1"></a>
 
 ## 一、概述

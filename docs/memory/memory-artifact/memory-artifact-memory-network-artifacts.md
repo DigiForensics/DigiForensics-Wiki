@@ -15,6 +15,8 @@ node_path: ["内存工件"]
 
 # 网络连接与流量痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-artifact-memory-network-artifacts)
+
 <a id="section-1"></a>
 
 ## 一、概述

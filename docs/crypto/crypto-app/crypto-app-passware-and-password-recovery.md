@@ -15,6 +15,8 @@ node_path: ["应用与数据库加密"]
 
 # Passware Kit 与通用密码恢复方法论
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/crypto-app-passware-and-password-recovery)
+
 <a id="section-1"></a>
 
 ## 一、概述

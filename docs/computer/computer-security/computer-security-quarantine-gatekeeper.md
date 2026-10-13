@@ -15,6 +15,8 @@ node_path: ["安全与权限"]
 
 # Quarantine 与 Gatekeeper
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-security-quarantine-gatekeeper)
+
 <a id="section-1"></a>
 
 ## 一、概述

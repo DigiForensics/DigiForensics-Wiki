@@ -15,6 +15,8 @@ node_path: ["Shell 与命令历史"]
 
 # Shell 痕迹与命令历史
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-shell-shell)
+
 <a id="section-1"></a>
 
 ## 一、概述

@@ -15,6 +15,8 @@ node_path: ["持久化机制"]
 
 # SSH 痕迹与密钥取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/computer-persistence-ssh)
+
 <a id="section-1"></a>
 
 ## 一、概述

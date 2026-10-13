@@ -15,6 +15,8 @@ node_path: ["Web 与应用"]
 
 # CDN 识别与源站挖掘
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-web-cdn)
+
 > ⚖️ **本篇的边界（重要）**
 >
 > 源站挖掘是**取证中的合法技术手段**，前提是**已获得委托方授权**，目标是**找回自己委托资产的真实源站**，用于还原完整请求链路。

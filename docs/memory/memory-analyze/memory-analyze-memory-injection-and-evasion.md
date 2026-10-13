@@ -15,6 +15,8 @@ node_path: ["内存分析"]
 
 # 注入执行与免杀痕迹
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/memory-analyze-memory-injection-and-evasion)
+
 <a id="section-1"></a>
 
 ## 一、概述

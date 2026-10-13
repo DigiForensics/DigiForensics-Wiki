@@ -14,6 +14,8 @@ node_path: []
 
 # 鸿蒙设备取证
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/harmonyos-mobile-forensics)
+
 **鸿蒙设备的分析思路与 Android 有相似之处，但在系统应用、备份结构、HAP 应用包、华为账号、运动健康和设备生态联动方面具有自己的特点。**
 
 **鸿蒙取证不应简单套用 Android 分析方法。更合理的做法是先识别检材来源，再围绕账号、应用、浏览、媒体、位置和设备生态建立分析框架。当前取证比赛中鸿蒙手机出现相对少，因此它更多出现在实战与特定赛题中。**

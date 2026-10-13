@@ -15,6 +15,8 @@ node_path: ["镜像采集"]
 
 # 磁盘镜像制作与证据固定
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/imaging-acquire-disk-imaging-and-evidence-preservation)
+
 <a id="section-1"></a>
 
 ## 一、概述

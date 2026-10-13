@@ -14,6 +14,8 @@ node_path: ["Android"]
 
 # TWRP 恢复分区取证与物理镜像提取
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/mobile-android-twrp)
+
 > **定位**：本文讨论**在设备已锁定、ADB 无 root、无法常规提取**的条件下，如何通过第三方 recovery 拿到全分区物理镜像，以及拿到之后如何把它变成可用的取证材料。
 >
 > **前置警告**：本流程会**改变设备状态**（在 recovery 或 boot 分区写入一个 recovery 镜像）。这些操作在多数情形下不触碰 `userdata`，但**并非绝对安全**，且可能触及 `FRP`（出厂重置保护）锁、运营商锁、引导加载器锁等状态。**本文的读者是已取得合法授权的取证人员**；授权范围、设备所有权、以及「是否允许改变设备状态」必须事先确认。

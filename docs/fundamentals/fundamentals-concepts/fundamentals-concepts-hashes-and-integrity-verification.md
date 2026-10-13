@@ -15,6 +15,8 @@ node_path: ["取证概念"]
 
 # 哈希与完整性校验
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/fundamentals-concepts-hashes-and-integrity-verification)
+
 <a id="section-1"></a>
 
 ## 一、概述

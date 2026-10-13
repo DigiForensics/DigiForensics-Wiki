@@ -15,6 +15,8 @@ node_path: ["面板与控制台"]
 
 # 宝塔新版加密数据解密
 
+> 原文链接：[DigiForensics Wiki · 在线阅读](https://www.digiforensics.cn/wiki/server-panel-bt-panel-encrypted-data)
+
 <a id="section-1"></a>
 
 ## 一、概述
