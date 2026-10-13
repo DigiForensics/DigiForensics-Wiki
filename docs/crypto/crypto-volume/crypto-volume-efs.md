@@ -292,7 +292,7 @@ type D:\	est.txt        # 若证书正确，直接显示明文
 
 **只搜一个 profile 找不到，不等于不存在。**
 
-**影响**：这是最贵的一种错误。写"无法解密"等于主动放弃一条已被授权的取证路径；如果对方律师手里恰好有那个 `.pfx`，报告的可信度会整体崩塌。
+**影响**：写"无法解密"等于主动放弃一条已被授权的取证路径；如果对方律师手里恰好有那个 `.pfx`，报告的可信度会整体崩塌。
 
 **核查**：**先枚举所有 SID 再下结论**。同一台机器上每个用户的 DPAPI master key 都在 `C:\Users\<SID>\AppData\Roaming\Microsoft\Protect\<SID>\<GUID>\`，另外还要查 `C:\Windows\System32\Microsoft\Cryptography\RSA\<SID>\`（系统级 RSA 容器）和卷影副本内的同名路径。
 

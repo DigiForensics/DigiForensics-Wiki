@@ -427,3 +427,7 @@
 
 - https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
 
+
+## [电子数据取证的概念与分类](docs/fundamentals/fundamentals-concepts/fundamentals-concepts-digital-forensics-concepts.md) · 补充参考
+
+- NIST SP 800-86, Guide to Integrating Forensic Techniques into Incident Response（2006-08），§3.1.2、§5.2：https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-86.pdf

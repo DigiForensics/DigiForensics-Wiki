@@ -447,7 +447,7 @@ python3 vol.py -f DigiForensics-mem.raw -r pretty windows.pslist
 
 <a id="section-23"></a>
 
-#### 陷阱 6：符号包当成万能，覆盖所有版本
+#### 陷阱 6：误以为同一符号包适用于所有版本
 
 **现象**：解压官方符号包，装上，跑 `windows.info`，对某个版本仍然失败，于是认为"这套方法不可靠"。
 

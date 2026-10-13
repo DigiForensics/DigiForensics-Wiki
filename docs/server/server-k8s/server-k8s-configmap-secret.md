@@ -1230,7 +1230,7 @@ grep -E '"username":"system:node:node-1"' /evidence/k8s/audit.log \
 
 **审计机制：日志从哪来、存多久、会不会丢**
 
-- [K8s 取证工件地图](server-k8s-kubernetes-artifact-map.md) —— **审计日志在整体工件里的位置与优先级**。它会被轮转覆盖，抢在前面是本领域最贵的经验之一。
+- [K8s 取证工件地图](server-k8s-kubernetes-artifact-map.md) —— **审计日志在整体工件里的位置与优先级**。它会被轮转覆盖，抢在前面是本领域需要遵守的采集要求。
 - [Linux 系统日志深度分析](../../computer/computer-log/computer-log-system-log-analysis.md) —— **审计日志本质上是另一种服务日志**，轮转、压缩、时区基准的处理方法可以完全借用。
 - [时间线重建](../../computer/computer-log/computer-log-linux-timeline-reconstruction.md) —— 审计日志的多源时间戳如何与节点日志、应用日志合并成一条可辩护的顺序。
 

@@ -330,9 +330,7 @@ python3 vol.py -f DigiForensics-mem.raw -r pretty windows.malware.pebmasquerade
 
 **原因**：`pslist` 的原理是**遍历**内核维护的活动进程链表（从 `PsActiveProcessHead` 出发沿 `ActiveProcessLinks` 逐个走），它只信链表。而摘链的实质就是把 `EPROCESS` 从链表上摘掉、进程照常运行——1 的表格把它标为"摘链的进程不在链表上，遍历不到"。摘链之后 `pslist` 的输出里根本不会有这个进程，所以"没看到"与"不存在"在 `pslist` 的输出里是同一件事。案例第 1 步结束时明确写了这句话：187 个进程正常，**但这不能证明没有隐藏进程**。
 
-**影响**：这是本板块最高频、也最贵的阴性误判。
-
-摘链是 rootkit 的标志性能力，而**你用的工具在原理上就看不到它**。
+**影响**：摘链是 rootkit 的标志性能力，而**你用的工具在原理上就看不到它**。
 
 案例中真正的发现（PID 7124）如果只跑 `pslist` 会被完全漏掉——它是靠 `psxview` 的 `pslist=False / 其余=True` 才浮出来的。
 

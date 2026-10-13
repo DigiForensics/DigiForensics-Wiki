@@ -658,7 +658,7 @@ grep -nE '^\s*(export\s+)?(HISTFILE|HISTSIZE|HISTCONTROL|PATH)=' /mnt/df/home/de
 
 「passwd 里没多账户」和「没有隐藏访问方式」是两个完全不同的命题。
 
-**影响**：漏掉 `authorized_keys` 尤其致命——它是不新增账户、不改 passwd、就能获得 root 登录权限的最常见手段。
+**影响**：漏掉 `authorized_keys` 影响尤其明显——它是不新增账户、不改 passwd、就能获得 root 登录权限的最常见手段。
 
 案例里 SSH 痕迹是独立的一篇，正是因为它的价值和 passwd 层不重叠。
 

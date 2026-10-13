@@ -62,13 +62,13 @@ node_path: ["应用与数据库加密"]
 | 加密文件（7z / RAR / Office / PDF） | 经 `*2john` 转换后的"哈希" | 必须先判断是加密还是压缩 |
 | 抓包 | NetNTLMv2 / Kerberos / WPA 的 `.hc22000` | 需 [网络流量与 PCAP 取证](../../memory/memory-network/memory-network-pcap.md) 作为前置 |
 
-**先把文件类型判断清楚**是本篇最容易被跳过、也最致命的一步。
+**先确认文件类型**，再选择提取方式与恢复工具。
 
 7z 的加密头、Office 的 Agile 加密、PDF 的标准安全处理器，处理方式与算力需求差了几个数量级。
 
 用错方式的开局，往往导致用几倍的算力去攻一个根本不该攻的目标。
 
-**在取证流程中的位置**：本篇是**分析**环节的深水区，通常在明文路径全部走完之后才被启用。
+**在取证流程中的位置**：本篇属于**分析**环节的专项处理，通常在明文路径全部走完之后才被启用。
 
 **上游依赖**是[镜像制作](../../imaging/imaging-acquire/imaging-acquire-disk-imaging-and-evidence-preservation.md)（所有提取都必须在已镜像的检材副本上做，原件不动）与[注册表取证](../../computer/computer-registry-log/computer-registry-log-registry-forensics.md)（SAM/SECURITY hive 的提取手法）。
 
@@ -179,10 +179,10 @@ Passware Kit Forensic 是这个领域最常见的商业方案（"Passware"本身
 
 **③ 工具定位**：
 
-- **hashcat**：**GPU 优先**。对**快哈希**（MD5/SHA1/SHA256/NTLM/NetNTLM）优势压倒性——这类算法计算量低，瓶颈在吞吐量，GPU 的并行规模正好碾压 CPU。`--example-hashes` 可列出全部模式，`-I` 看设备。
+- **hashcat**：**GPU 优先**。对**快哈希**（MD5/SHA1/SHA256/NTLM/NetNTLM）通常具有吞吐量优势——这类算法计算量低，瓶颈在吞吐量，GPU 的并行计算能力可提高吞吐量。`--example-hashes` 可列出全部模式，`-I` 看设备。
 - **john the ripper**：**CPU 优先、支持格式更杂**。对**慢哈希**（bcrypt/scrypt/PBKDF2）差别不大（都受限于算法本身而非算力），但它对畸形/非标准格式的容错更好，且 `*2john` 系列格式转换器更全。
 
-**④ 验证——本篇最容易被跳过、也最致命的一步。**
+**④ 验证——用恢复结果实际打开目标文件。**
 
 `hashcat` 报 `Cracked` **只意味着"我算出了一个输入，它的哈希值等于目标"**。
 
@@ -566,7 +566,7 @@ awk -F: '{print $1, length($4)}' ntlm.txt
 
 **原因**：`--remove` 会在破解成功后**改写输入的 hash 文件**，删掉已解出的行。
 
-这个行为在日常渗透测试里很方便，**在取证里却有一个致命问题：它销毁了原始证据载体**。
+这个行为在日常渗透测试里很方便，**在取证里却有一个严重问题：它销毁了原始证据载体**。
 
 你无法再向委托方证明"这份哈希列表是从检材里完整提取的、包含哪些账户"——因为原始列表已经被工具修改过了。
 
@@ -661,9 +661,7 @@ hashcat --example-hashes | grep -E "^[0-9]+ : (MD5|bcrypt|SHA-512|yescrypt)"
 
 而且它连"这个账户能被这个口令登录"都证明不了，因为真正的验证需要该口令能通过系统的认证路径。
 
-**影响**：这是本篇最贵的错误。
-
-账户同一性认定、口令复用风险提示、乃至诉讼中的举证，都可能建立在这个未经验证的值上。
+**影响**：账户同一性认定、口令复用风险提示、乃至诉讼中的举证，都可能建立在这个未经验证的值上。
 
 报告里的一个具体口令字符串，会被人拿去实际使用——**一旦用不了，所有基于它的推断同时崩塌**。
 
@@ -1057,7 +1055,7 @@ EOF
 
 - [哈希与完整性校验](../../fundamentals/fundamentals-concepts/fundamentals-concepts-hashes-and-integrity-verification.md) —— 本篇的"验证"步骤依赖的正是哈希知识。**同一套概念在取证里有两个角色**：验证检材是否被改动，和验证候选口令是否正确。这篇讲清了角色边界，也讲清了为什么"算出一个碰撞"不等于"拿到了口令"。
 - [证据保管链与委托证明](../../fundamentals/fundamentals-chain/fundamentals-chain-chain-of-custody-and-authorization.md) —— 红线一要的可执行形式。**把授权书与检材编号绑定归档、开工前先记录**，这些动作在本篇步骤 1 里不是形式，而是这个链接的落地方式。
-- [取证技能树](../../fundamentals/fundamentals-process/fundamentals-process-forensics-learning-path.md) —— 本篇要求的前置能力（文件格式识别、哈希提取、算力估算、时间记录）在这张树上的位置，以及缺哪一块该先补哪一块。缺"文件格式识别"直接上手算力，是本领域最贵的浪费。
+- [取证技能树](../../fundamentals/fundamentals-process/fundamentals-process-forensics-learning-path.md) —— 本篇要求的前置能力（文件格式识别、哈希提取、算力估算、时间记录）在这张树上的位置，以及缺哪一块该先补哪一块。缺"文件格式识别"直接上手算力，是本领域不必要的资源消耗。
 
 **第二组：相邻议题——本领域的三条死路**
 

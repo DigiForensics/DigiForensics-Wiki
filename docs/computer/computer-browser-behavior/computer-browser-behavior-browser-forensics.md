@@ -35,7 +35,7 @@ node_path: ["浏览器行为"]
 
 **它自己**要先做两件判断：**每个浏览器的用户数据目录有多少个 Profile**（Chromium 系有 `Default`、`Profile 1`、`Profile 2`……，只看 `Default` 会漏掉大量数据）；以及密文前缀属于三代方案里的哪一代（决定能不能解、怎么解）。
 
-**下游支撑**三件事。访问时间是时间线的**第一优先级输入**；下载记录要与系统层的下载痕迹（Zone.Identifier、SRUM 的网络用量）交叉；凭据的**存在性**结论（而非明文本身）可以支撑「该机登录过某服务」这类判断。
+**下游支撑**三件事。访问时间是时间线的**常用输入**；下载记录要与系统层的下载痕迹（Zone.Identifier、SRUM 的网络用量）交叉；凭据的**存在性**结论（而非明文本身）可以支撑「该机登录过某服务」这类判断。
 
 浏览器应用内痕迹、[SRUM 数据库分析](computer-browser-behavior-srum.md)的系统级资源使用统计、[Windows 11 与 Recall](computer-browser-behavior-windows11-recall.md)的系统级屏幕快照，三者是并列关系。
 

@@ -81,7 +81,7 @@ DOS 时间是 FAT/exFAT 目录项里的位域打包，创建/修改/访问各占
 | **OLE 自动化时间** | **1899-12-30** | **浮点「天」** | 旧版 Office 文档属性 | `45366.27083333` |
 | **DOS 时间** | 1980-01-01 | 2 秒粒度 | FAT/exFAT 目录项 | `0x586F73C0` |
 
-> ⚠️ **最致命的一对**：FILETIME 和 WebKit 都从 1601 年起算，但 FILETIME 是 100 纳秒、WebKit 是微秒，相差正好 10 倍——把 FILETIME 当 WebKit 读会跑到 1600 多年，反过来跑到 2400 多年。数值长度也不同：FILETIME 通常 18 位，WebKit 通常 17 位。
+> ⚠️ **注意区分时间单位**：FILETIME 和 WebKit 都从 1601 年起算，但 FILETIME 是 100 纳秒、WebKit 是微秒，相差正好 10 倍——把 FILETIME 当 WebKit 读会跑到 1600 多年，反过来跑到 2400 多年。数值长度也不同：FILETIME 通常 18 位，WebKit 通常 17 位。
 >
 > ⚠️ 第二个坑：OLE 自动化时间不是从 1970 年起算，零点是 **1899-12-30**，Unix 纪元在 OLE 里等于 `25569.0` 而不是 `0`。看到带小数的五位数（45366 这种），先怀疑它是 OLE 日期。
 
@@ -268,7 +268,7 @@ FROM message ORDER BY date DESC LIMIT 10;"
 
 **原因**：FILETIME 是 1601 年起的 100 纳秒，WebKit 是 1601 年起的微秒，数值只差一个数量级，肉眼几乎一样。
 
-2.1 节强调过"最致命的一对"，但真正让人栽跟头的是 2.3 节补的那一刀：IE 的 `index.dat` 里的时间值就是 FILETIME。
+2.1 节区分了 FILETIME 与 WebKit 的单位；还需注意 2.3 节所述的另一处用法：IE 的 `index.dat` 里的时间值就是 FILETIME。
 
 同一个"从 1601 起算"的说法覆盖了三类工件（NTFS、注册表、IE 历史用 FILETIME；Chrome/Edge/Firefox 用微秒）。只记住 Chrome 那一半的人会在 IE 记录上翻车。
 

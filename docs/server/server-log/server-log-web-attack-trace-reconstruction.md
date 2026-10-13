@@ -51,7 +51,7 @@ node_path: ["日志分析"]
 | **密钥泄露** | `Web.config` 的 `<machineKey>`、`machine.config` 默认值 | ★★★★ **配置弱点 ≠ 已被利用** |
 | **不常检查的面** | Windows 上的 PHP 站点 | ★★★ 团队惯性盲区 |
 | **清理痕迹** | `$MFT` 的 `0x06` 条目、`$UsnJrnl` 删除记录 | ★★★★★ **删掉了什么，只有这里能答** |
-| **反取证** | `Security` 1102（清日志）、4719（改审计策略） | ★★★★★ **最强单点证据** |
+| **反取证** | `Security` 1102（清日志）、4719（改审计策略） | ★★★★★ **可交叉核对的事件记录** |
 | **时间戳** | 正常文件**成簇**，落地文件**离群** | ★★★★★ 批量重置会破坏这个分布 |
 
 > ★ **判读方法贯穿全篇**：正常项目的文件时间戳会**成簇**（一次部署一批文件），而**离群的单个文件**——尤其"只有一个文件的时间戳与所有其他文件都差很远"——是篡改或落地的首要嫌疑。**这个方法对整站目录都适用，不限于 `bin`。**
@@ -237,9 +237,9 @@ blkls -o 2048 /work/DigiForensics.dd > /work/unalloc.raw
 
 <a id="section-10"></a>
 
-### 2.8 ★ 清日志本身会留下 1102：反取证的最强单点证据
+### 2.8 ★ 清日志本身会留下 1102：反取证的可交叉核对的事件记录
 
-| 事件 | 通道 | 含义 | 为什么是铁证 |
+| 事件 | 通道 | 含义 | 判断依据 |
 |---|---|---|---|
 | **1102** | `Security` | **Security 日志被清除** | 清理动作本身**被记录进了另一个日志**——清 `Security` 的人常忘了 `System` 里的这条 |
 | **4719** | `Security` | 系统审计策略被修改 | 通常先禁用审计再清理，**4719 早于 1102** |
@@ -1040,7 +1040,7 @@ Get-WinEvent -FilterHashtable @{LogName='Security'; Id=1102,4719} -MaxEvents 20 
 | 存在有目标的 Web 入侵 | 注入 + PUT 落地（[03](server-log-web-access-log-analysis.md)）+ 4 个同秒时间戳文件 | **强** |
 | 落地文件包含后门脚本 | `uploads\up.aspx` 存在于该秒批次，日志中 03:12–03:40 被反复调用 | **强**（需内容分析最终定性） |
 | `bin\App_Master.dll` 为伪装的后门程序集 | 命名模仿 `App_*` 约定 + **无版本资源** + 与落地文件同秒写入 | **强**（需反编译内容佐证定性） |
-| 存在刻意反取证 | 4719 → 删除文件 → 1102 **同一秒** | **强**（反取证铁证） |
+| 存在刻意反取证 | 4719 → 删除文件 → 1102 **同一秒** | **强**（反取证确证） |
 | 至少 2 个落地文件已被删除 | MFT 中 `4484-128-4/5` 仍保留条目与时间戳 | **强（仅证"曾存在"）** |
 | 已删除文件的内容 | `$DATA` 未分配空间**可能已被复用** | **弱**：需雕刻字节佐证，否则不予断言 |
 | 11-03 之前的事件日志行为 | `Security` 已循环覆盖 | **不可查（已列为局限）** |
@@ -1182,7 +1182,7 @@ Get-WinEvent -FilterHashtable @{LogName='Microsoft-Windows-PowerShell/Operationa
 - [Web 访问日志深度分析](server-log-web-access-log-analysis.md) —— 本篇产出"主机上发生了什么"，那篇产出"哪些请求可疑"，两边对上才算闭环。`time-taken` 离群值、`404/7` 这类三元组判据是时序对齐的锚点。
 - [IIS 配置与 W3C 日志](server-log-iis.md) —— `applicationHost.config` 的 `.bak` 对照、站点 ID 与物理路径映射，本篇的配置层分析依赖它。
 - [Web 服务器取证工件地图](server-log-server-artifact-map.md) —— 7045 新服务、任务缓存、PowerShell 4104、Sysmon 这些主机侧行为证据在哪、覆盖到哪。
-- [事件日志深度分析](../../computer/computer-registry-log/computer-registry-log-windows-event-log-analysis.md) —— 1102、4719、4672/4688 的完整语义。本篇的"最强单点证据"要从这里取。
+- [事件日志深度分析](../../computer/computer-registry-log/computer-registry-log-windows-event-log-analysis.md) —— 1102、4719、4672/4688 的完整语义。本篇的"可交叉核对的事件记录"要从这里取。
 
 <a id="section-42"></a>
 

@@ -146,7 +146,7 @@ metadata
 
 ### 2.4 文件级加密 FBE：能不能读取决于 recovery 能力
 
-这一节的误读代价较高，单独讲。
+这一节说明备份格式识别及其限制。
 
 FBE（File-Based Encryption，Android 7+）的工作方式：
 

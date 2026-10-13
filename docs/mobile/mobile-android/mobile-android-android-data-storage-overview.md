@@ -289,7 +289,7 @@ sqlite3 extracted/com.digiforensics.sample/databases/app.db ".tables"
 
 ## 四、常见陷阱
 
-Android 取证最贵的错误不是「没读到」，而是**读到了一部分却以为读全了**。
+Android 提取需确认数据覆盖范围，避免将部分结果当成完整数据。
 
 这一章把四类最容易出错的环节拆开：访问级别、路径覆盖、状态固定、结论表述。每一条都给机制、代价和可执行的替代动作。
 
