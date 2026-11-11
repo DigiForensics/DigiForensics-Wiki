@@ -184,3 +184,8 @@
 - [赛事、靶场与备赛方法论](docs/fundamentals/fundamentals-chain/fundamentals-chain-forensics-competitions-and-practice.md) · 证据保管链
 - [证据文件格式：DD、E01 与 AFF4](docs/fundamentals/fundamentals-chain/fundamentals-chain-dd-e01-aff4-evidence-formats.md) · 证据保管链
 - [电子数据取证的概念与分类](docs/fundamentals/fundamentals-concepts/fundamentals-concepts-digital-forensics-concepts.md) · 取证概念
+
+## 存储结构与寻址（2026-11-11 审校新增）
+
+- [存储寻址基础：扇区、LBA、分区与偏移](docs/filesystem/storage-addressing/storage-addressing-sectors-lba-offsets.md)
+- [文件系统中的文件定位：簇、数据运行区与取证验证](docs/filesystem/storage-addressing/filesystem-file-location-and-verification.md)

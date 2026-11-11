@@ -7,7 +7,7 @@
 
 DigiForensics-Wiki 是由 DigiForensics 平台维护、面向社区开放协作的电子取证知识库。内容围绕检材获取、数据结构、工具使用、痕迹分析和结果复核展开，供技术学习、取证训练、比赛备赛与研究参考。
 
-本仓库提供 Wiki 的 Markdown 文档和离线检索数据。当前收录 **165 篇公开文档**，覆盖取证基础、磁盘镜像、计算机、移动设备、文件系统、加密数据、服务器、内存及相关技术标准。
+本仓库提供 Wiki 的 Markdown 文档和离线检索数据。当前收录 **167 篇公开文档**，覆盖取证基础、磁盘镜像、计算机、移动设备、文件系统、加密数据、服务器、内存及相关技术标准。
 
 *An open digital forensics knowledge base maintained by DigiForensics, with Chinese technical documentation for learning, forensic practice and research.*
 
@@ -26,14 +26,14 @@ Wiki 承担其中的技术参考工作：按知识领域组织方法与工件，
 | [取证基础与规范](docs/fundamentals/) | 12 | 取证流程、完整性校验、时间戳、保管链、装备、学习路径 |
 | [磁盘镜像与仿真](docs/imaging/) | 6 | 镜像采集、证据格式、只读接入、在线取证、虚拟机仿真 |
 | [计算机取证](docs/computer/) | 28 | Windows、Linux、macOS 的注册表、日志、执行与用户活动痕迹 |
-| [文件系统分析](docs/filesystem/) | 10 | NTFS、FAT/exFAT、ext4、APFS、F2FS、文件雕刻与恢复 |
+| [文件系统分析](docs/filesystem/) | 12 | NTFS、FAT/exFAT、ext4、APFS、F2FS、文件雕刻与恢复 |
 | [移动取证](docs/mobile/) | 14 | Android、iOS、SIM/USIM、应用数据、SQLite 与数据库分析 |
 | [加密与密码取证](docs/crypto/) | 7 | BitLocker、EFS、VeraCrypt、浏览器凭据、配置与数据库加密 |
 | [服务器与云取证](docs/server/) | 20 | Web 日志、IIS、Exchange、管理面板、Docker、Kubernetes |
 | [内存与专项取证](docs/memory/) | 11 | 内存采集、Volatility、进程与注入检测、网络连接、PCAP |
 | [电子数据法律标准](docs/electronic-data-legal-standards/) | 50 | SF/T、SF/Z JD、GB/T 等电子数据及相关鉴定技术标准 |
 | [其他专题](docs/general/) | 7 | PVE/Ceph、鸿蒙、应用数据、手机删除痕迹与运动软件 |
-| **合计** | **165** | |
+| **合计** | **167** | |
 
 ## 从哪里开始
 
@@ -80,7 +80,7 @@ DigiForensics-Wiki/
 └── NOTICE.md                  来源与署名说明
 ```
 
-正文是内容维护的依据。两个 JSONL 文件便于离线检索和构建资料索引；当前包含 165 条文档记录、5,725 个正文片段。处理片段时应保留 `article_id`、`path`、`title`、`canonical` 和 `license`，引用时回到完整文章确认上下文。
+正文是内容维护的依据。两个 JSONL 文件便于离线检索和构建资料索引；当前包含 167 条文档记录、5,800 个正文片段。处理片段时应保留 `article_id`、`path`、`title`、`canonical` 和 `license`，引用时回到完整文章确认上下文。
 
 每篇文档的 front matter 记录来源信息：
 
@@ -148,3 +148,7 @@ GitHub 修订记录见 [提交历史](https://github.com/DigiForensics/DigiForen
 - 开源项目：[DigiForensics GitHub](https://github.com/DigiForensics)
 - 社区交流：[社区共建](https://www.digiforensics.cn/community) · QQ 群 **1078049831**
 - 平台反馈与版权问题：[feedback@digiforensics.cn](mailto:feedback@digiforensics.cn)
+
+## 2026-11-11 内容更新
+
+新增两篇经审校的存储寻址与文件定位文章，见 [文档目录](INDEX.md)。这两篇已在仓库发布，本地网站 Wiki 已导入；线上网站管理通道暂时不可达，因此网站发布仍待确认。新条目使用 `reviewed:<slug>` 作为仓库内稳定 ID，`canonical` 指向本仓库，`site_publication: pending` 不表示线上已发布；其余 165 篇保留既有来源与内容。本次没有宣称完成线上全库重新导出。
